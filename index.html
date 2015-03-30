@@ -4,8 +4,9 @@
   <head>
     <title>Give UC Davis - One Gift. Endless Possibilities.</title>
     <!-- Must be at the top of head, loads fonts -->
-    <link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
-    <script src="//use.typekit.net/hnl8ojf.js"></script>
+    <!--<link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />-->
+    <link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="stylesheets/bootstrap.css" />
+    <!--<script src="//use.typekit.net/hnl8ojf.js"></script>-->
     <!-- Le styles -->
     <link href="stylesheets/stylesheet.css" rel="stylesheet" />
     <!-- Fav and touch icons -->
@@ -13,57 +14,179 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default" role="navigation">
+
+  <div class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar long"></span>
-            <span class="icon-bar short"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li id="nav-areas">
-              <a target="_blank" href="http://giving.ucdavis.edu/ways-to-give/index.html">Ways to give</a>
-            </li>
-            <li id="nav-areas">
-              <a href="/Area">Areas to support</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-    <div class="container" id="search-results" style="display: none;">
-      <div class="well well-sm">
-        <h4>Search results</h4>
-        <div class="row" id="results-row"></div>
-      </div>
-    </div>
-    <div class="vlanding">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar long"></span>
+                  <span class="icon-bar short"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">
+              </a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li id="nav-areas">
+                      <a target="_blank" href="http://giving.ucdavis.edu/ways-to-give/index.html">Venue</a>
+                  </li>
+                  <li id="nav-areas">
+                      <a href="/Area">Lodging</a>
+                  </li>
+                  <li id="nav-areas">
+                      <a href="/Area">Registry</a>
+                  </li>
+                  <li id="nav-areas">
+                    <a href="/Area">Contact</a>
+                  </li>
+              </ul>
+
+
+          </div>
+      </div><!--/.nav-collapse -->
+  </div>
+
+  <div class="vlanding">
       <div class="video_wrapper">
-        <video controls="" muted="" autoplay="" loop="" poster="https://give.ucdavis.edu/Content/images/philpash.jpg">
-          <source src="https://give.ucdavis.edu/Content/images/philpash.webm" type="video/webm" />
-          <source src="https://give.ucdavis.edu/Content/images/philpash.mp4" type="video/mp4" />
-        </video>
+          <img src="images/annedog.jpg">
+          <!--<video controls muted autoplay loop poster="images/annehike.jpg">-->
+              <!--&lt;!&ndash;<source src="/Content/images/philpash.webm" type="video/webm">&ndash;&gt;-->
+              <!--&lt;!&ndash;<source src="/Content/images/philpash.mp4" type="video/mp4">&ndash;&gt;-->
+          <!--</video>-->
       </div>
       <div class="vlanding__words">
-        <h1 class="sean white shadow">Whose world will you change?</h1>
-        <h3 class="m-zero white shadow">A gift to UC Davis can make a world of difference.</h3>
+          <h1 class="sean white shadow">Whose world will you&nbsp;change?</h1>
+          <h3 class="m-zero white shadow">A gift to UC Davis can make a world of&nbsp;difference.</h3>
+          <a href="/Donate/YourGift/341017"> <button class="btn-banner--index">Give&nbsp;Now</button></a>
       </div>
-    </div>
-    <div class="l">
+  </div>
+
+  <div class="l">
       <div class="l-content">
-        <div class="center-t">
-          <h2 class="sean gold m-bot">One Gift. Endless Possibilities.</h2>
-          <p class="m-zero">
-                Whatever your philanthropic passion may be—whether it is improving energy-efficient power, feeding the world, curing cancer or helping a student in need—you can find a way to support it by giving to UC Davis. You could be the one to help advance UC Davis’ excellence in teaching, research and public service for the betterment of our region, state, nation and world.
-            </p>
-        </div>
+          <div class="center-t">
+              <h2 class="sean gold m-bot">One Gift. Endless Possibilities.</h2>
+              <p class="m-zero">
+                  Whatever your philanthropic passion may be—whether it is improving energy-efficient power, feeding the world, curing cancer or helping a student in need—you can find a way to support it by giving to UC Davis. You could be the one to help advance UC Davis’ excellence in teaching, research and public service for the betterment of our region, state, nation&nbsp;and&nbsp;world.
+              </p>
+          </div>
       </div>
-    </div>
+  </div>
+
+
+  <div class="marquee">
+      <div class="slideitem">
+          <a href="/Search/Tags/food">
+              <img src='/Content/images/food-ic.svg' alt='food category' />
+          </a>
+          <h4 class="theme"><a class="nonvisited category_link secondary-color" href="/Search/Tags/food">food</a></h4>
+      </div>
+      <div class="slideitem">
+          <a href="/Search/Tags/water">
+              <img src='/Content/images/water-ic.svg' alt='water category' />
+          </a>
+          <h4 class="theme"><a class="nonvisited category_link secondary-color" href="/Search/Tags/water">water</a></h4>
+      </div>
+      <div class="slideitem">
+          <a href="/Search/Tags/society">
+              <img src='/Content/images/society-ic.svg' alt='society category' />
+          </a>
+          <h4 class="theme"><a class="nonvisited category_link secondary-color" href="/Search/Tags/society">society</a></h4>
+      </div>
+      <div class="slideitem">
+          <a href="/Search/Tags/environment">
+              <img src='/Content/images/environment-ic.svg' alt='environment category' />
+          </a>
+          <h4 class="theme"><a class="nonvisited category_link secondary-color" href="/Search/Tags/environment">environment</a></h4>
+      </div>
+      <div class="slideitem">
+          <a href="/Search/Tags/energy">
+              <img src='/Content/images/energy-ic.svg' alt='energy category' />
+          </a>
+          <h4 class="theme"><a class="nonvisited category_link secondary-color" href="/Search/Tags/energy">energy</a></h4>
+      </div>
+      <div class="slideitem">
+          <a href="/Search/Tags/arts">
+              <img src='/Content/images/arts-ic.svg' alt='arts category' />
+          </a>
+          <h4 class="theme"><a class="nonvisited category_link secondary-color" href="/Search/Tags/arts">arts</a></h4>
+      </div>
+  </div>
+
+  <div class="band">
+      <div class="band-content">
+          <div class="right right-t">
+              <h1 class="b-title bg-blue sean" style="padding-left:30px;padding-right:18px">Support Student Success</h1>
+              <p class="fund_description">
+                  A gift to UC Davis students can make a world of difference.<br />
+                  Join the team that is deeply committed to educating the next generation of leaders who will help solve some of California and the world’s most pressing challenges.
+              </p>
+              <a href="/Search/Tags/students"><button class="btn-banner">Change the World for Students Now <i class="fa fa-chevron-right"></i></button></a>
+          </div>
+      </div>
+  </div>
+  <div class="rainbow"></div>
+  <div id="featured-funds"></div>
+
+  <div class="doormat">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-md-4 center-t m-top">
+                  <img src="/Content/images/OneWorldOneUCDavis.svg" alt="UC Davis"/>
+              </div>
+              <div class="col-md-2 footright">
+                  <h5>Office of University Development</h5>
+                  <p> UC Davis<br />
+                      One Shields Avenue<br />
+                      Davis, CA 95616-5270<br />
+                      <br />
+                      Phone: (530) 754-4438<br />
+                      Fax: (530) 754-2294<br />
+                  </p>
+              </div>
+              <div class="col-md-2 footright">
+                  <h5>Connect</h5>
+                  <ul>
+                      <li><a href="https://www.facebook.com/UCDavis" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                      <li><a href="https://twitter.com/ucdavis" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                      <li><a href="https://www.pinterest.com/ucdavis/one-campaign-one-hundred-stories/" target="_blank"> <i class="fa fa-pinterest"></i> Pinterest</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-2 footright">
+                  <h5>Support</h5>
+                  <ul>
+                      <li><a href="http://giving.ucdavis.edu/contact-us/index.html" target="_blank">Contact</a></li>
+                      <li><a href="http://giving.ucdavis.edu/ways-to-give/donor-resources/faq.html" target="_blank">FAQ</a></li>
+                      <li><a href="http://giving.ucdavis.edu/ways-to-give/donor-resources/glossary.html" target="_blank">Glossary</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-2 footright">
+                  <h5>Links</h5>
+                  <ul>
+                      <li><a href="http://ucdavis.edu" target="_blank">UC Davis</a></li>
+                      <li><a href="http://ucdavis.edu/admissions/" target="_blank">Admissions</a></li>
+                      <li><a href="http://www.alumni.ucdavis.edu/" target="_blank">CAAA</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <footer>
+      <div class="footer-content">
+          <!--             <p class="m-zero center-t white">
+                          <a href="https://www.facebook.com/UCDavis" target="_blank"><i class="fa fa-facebook"></i></a>
+                          <a href="https://twitter.com/ucdavis" target="_blank"><i class="fa fa-twitter"></i></a>
+                          <a href="https://www.pinterest.com/ucdavis/one-campaign-one-hundred-stories/" target="_blank"><i class="fa fa-pinterest"></i></a> -->
+          <p class="m-zero center-t white">Copyright &copy; The Regents of the University of California, Davis campus. All rights reserved.</p>
+      </div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="/bundles/bootstrap?v=3sMMkHOoRNp-NJC3NrZxEw-RErUEY5a8VSP_wl4V4QA1"></script>
+
   </body>
 
 </html>
